@@ -1,4 +1,5 @@
-﻿using Windows.UI.Xaml.Controls;
+﻿using Windows.UI.Xaml;
+using Windows.UI.Xaml.Controls;
 
 
 namespace App1
@@ -9,6 +10,10 @@ namespace App1
         public BasePage()
         {
             InitializeComponent();
+        }
+        private void GoBack_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.GoBack();
         }
     }
 }
