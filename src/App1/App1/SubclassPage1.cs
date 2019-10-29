@@ -6,6 +6,7 @@
             : base()
         {
             TitleTextBlock.Text = nameof(SubclassPage1);
+            DefaultStyleKey = typeof(SubclassPage1);
         }
     }
 }
